@@ -1,3 +1,9 @@
+##Testing Only , scraping some data !
+# In order for this file to run one needs to install some dependecies along side Python, Selenium , BS4, and mysql 
+#
+
+
+
 class Odds:
     def __init__(self, url):
         self.url = url
@@ -22,18 +28,9 @@ class Odds:
         ### lets select calendar and click on it - ok
         driver.find_element_by_xpath('//*[@id="lcmenu"]/a[2]').click()
         time.sleep(randint(3, 9))
-        # time.sleep(3)
-        # prevDay = driver.find_element_by_xpath('//*[@id="lcmenu"]/a[1]/i').click()
-        # time.sleep(3)
-        # prevDay = driver.find_element_by_xpath('//*[@id="lcmenu"]/a[1]/i').click()
-        # time.sleep(3)
-        # prevDay = driver.find_element_by_xpath('//*[@id="lcmenu"]/a[1]/i').click()
-        # time.sleep(3)
-        # prevDay = driver.find_element_by_xpath('//*[@id="lcmenu"]/a[1]/i').click()
-        # time.sleep(3)
-        # prevDay = driver.find_element_by_xpath('//*[@id="lcmenu"]/a[1]/i').click()
-        # time.sleep(3)
-        # prevDay = driver.find_element_by_xpath('//*[@id="lcmenu"]/a[1]/i').click()
+        prevDay = driver.find_element_by_xpath('//*[@id="lcmenu"]/a[1]/i').click()
+        time.sleep(3)
+     
 
     def soupCallBs4(self):
         time.sleep(randint(1, 3))
