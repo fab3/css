@@ -1,4 +1,2 @@
-# python
-
-Its all about learning Python :)
-#playing around with pull request
+# I'm using Python for testing purposes :)
+because is Its all about learning how todo the job done ... programming  
