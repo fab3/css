@@ -1,2 +1,2 @@
-# I'm using Python for testing purposes :)
-because is Its all about learning how todo the job done ... programming  
+# I'm using Python for testing purposes,
+because is Its all about learning and get the job done ... programming  :)
