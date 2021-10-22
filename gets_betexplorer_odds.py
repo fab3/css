@@ -196,8 +196,8 @@ class Odds:
         config = {
             "host": "localhost",
             "user": "root",
-            "password": "",
-            "database": "test_db",
+            "password": "inhere_yourpasswordxxx_",
+            "database": "inhere_your_DBxxxname",
         }
         self.conn = mysql.connector.connect(**config)
         self.cur = self.conn.cursor()
