@@ -1,3 +1,8 @@
+### In order for this to work some1 needs to install mysql_DB, create table  and use your credentials
+### set Up your date range inside getDate method 
+## use you path to your chrome webdriver
+### install selenium and BS4, fake_useragent if u want or off :)
+
 import mysql.connector
 import time
 from time import sleep
